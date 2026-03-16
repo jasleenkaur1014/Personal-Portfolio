@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-logo">JK</div>
+      <ul class="nav-links">
+        <li><a href="#sec-2">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#getInTouch" class="nav-cta">Get in Touch</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section id="head">
+      <div class="hero-text fade-in">
+        <span class="hero-tag">Full Stack Developer · India</span>
+        <h1>Hi, I'm<br /><em>Jasleen</em><br />Kaur</h1>
+        <p>
+          I build end-to-end web applications — from pixel-perfect interfaces to
+          robust backends. Currently leveling up in React and DSA.
+        </p>
+        <div class="hero-btns">
+          <a href="#work" class="btn-primary">View My Work</a>
+          <a href="#getInTouch" class="btn-secondary">Let's Connect</a>
+        </div>
+      </div>
+      <div class="hero-image fade-in">
+        <img src="profile2.jpeg" alt="Jasleen Kaur" />
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ABOUT -->
+    <section id="sec-2">
+      <div class="fade-in">
+        <small class="section-label">Who I Am</small>
+        <h2 class="section-title" id="about">About Me</h2>
+        <p>
+          Hi, I'm Jasleen Kaur from Rajasthan, India. I'm a full stack developer
+          who genuinely loves to code. When I'm not building things, you'll find
+          me travelling or watching cricket.
+        </p>
+
+        <h2
+          class="section-title"
+          id="obj"
+          style="font-size: 1.6rem; margin-top: 2rem"
+        >
+          Career Objective
+        </h2>
+        <p>
+          Motivated Computer Science graduate with a solid foundation in
+          programming, web development, and machine learning. Eager to leverage
+          problem-solving skills and technical knowledge in real-world software
+          projects. Looking for an opportunity to grow in a challenging and
+          innovative environment.
+        </p>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- WORK -->
+    <section id="work">
+      <small class="section-label">What I've Built</small>
+      <h2 class="section-title">Recent Projects</h2>
+
+      <div class="projects-grid">
+        <div class="project-card fade-in">
+          <div class="project-number">01</div>
+          <h3>Chatter Up</h3>
+          <p class="project-duration">Real Time Chat Application</p>
+          <p>
+            A real-time chat platform where users create accounts, join rooms,
+            and message instantly using Socket.io's bidirectional communication.
+          </p>
+          <div class="tech-tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">Express</span>
+            <span class="tag">Socket.io</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <ul class="project-features">
+            <li>Real-time messaging with Socket.io</li>
+            <li>User authentication & registration</li>
+            <li>Multiple chat rooms</li>
+            <li>Online / offline user status</li>
+          </ul>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-number">02</div>
+          <h3>Flight Booking System</h3>
+          <p class="project-duration">Booking Platform</p>
+          <p>
+            A flight booking platform where users search available flights,
+            select seats, and book tickets with a clean responsive experience.
+          </p>
+          <div class="tech-tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">Express</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">HTML/CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <ul class="project-features">
+            <li>Flight search & filtering</li>
+            <li>Seat selection</li>
+            <li>Ticket booking & confirmation</li>
+            <li>User login & registration</li>
+          </ul>
+        </div>
+
+        <div class="project-card fade-in" style="grid-column: 1 / -1">
+          <div class="project-number">03</div>
+          <h3>Smart E-commerce with ML Integration</h3>
+          <p class="project-duration">Full Stack Platform</p>
+          <p>
+            A fully functional e-commerce platform with user authentication,
+            product listings, cart, and order management — enhanced with a
+            machine learning model for product recommendations.
+          </p>
+          <div class="tech-tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Bootstrap</span>
+            <span class="tag">Python (ML)</span>
+            <span class="tag">XAMPP</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <ul class="project-features" style="columns: 2; gap: 1rem">
+            <li>User login & registration</li>
+            <li>Product catalog with search</li>
+            <li>Add to cart & checkout</li>
+            <li>ML-based product recommendations</li>
+            <li>Responsive UI with Bootstrap</li>
+            <li>MySQL via XAMPP backend</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <p class="section-label">What I Know</p>
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-item fade-in">
+          <p class="skill-cat">Languages</p>
+          <p>Python, Java, C, C++</p>
+        </div>
+        <div class="skill-item fade-in">
+          <p class="skill-cat">Web Development</p>
+          <p>
+            HTML, CSS, JavaScript, Bootstrap, Node.js, Express, JWT Auth, React
+          </p>
+        </div>
+        <div class="skill-item fade-in">
+          <p class="skill-cat">Databases</p>
+          <p>MySQL, MongoDB</p>
+        </div>
+        <div class="skill-item fade-in">
+          <p class="skill-cat">DSA & Algorithms</p>
+          <p>Data Structures and Algorithms</p>
+        </div>
+        <div class="skill-item fade-in">
+          <p class="skill-cat">Machine Learning</p>
+          <p>Basic ML Algorithms, Python Libraries (NumPy, Pandas)</p>
+        </div>
+        <div class="skill-item fade-in">
+          <p class="skill-cat">Other</p>
+          <p>
+            Computer Networks, MS Office, Google Suite, Problem Solving, Team
+            Collaboration
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- CONTACT -->
+    <section id="getInTouch">
+      <div class="contact-inner">
+        <div class="contact-info fade-in">
+          <p class="section-label">Say Hello</p>
+          <h2 class="section-title">Get in Touch</h2>
+          <p>
+            If you'd like to connect, collaborate, or discuss opportunities,
+            feel free to reach out through any of the platforms below. I'm
+            always open to new conversations.
+          </p>
+        </div>
+        <div class="fade-in">
+          <ul class="contact-links">
+            <li>
+              <span>Email</span>
+              <a href="mailto: jasleenkaur1014@gmail.com"
+                >jasleenkaur1014@email.com</a
+              >
+            </li>
+            <li>
+              <span>LinkedIn</span>
+              <a href="">linkedin.com/in/jasleen</a>
+            </li>
+            <li>
+              <span>GitHub</span>
+              <a href="https://github.com/jasleenkaur1014" target="_blank"
+                >github.com/jasleenkaur1014</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy; 2025 Jasleen Kaur — All rights reserved</p>
+      <p class="footer-accent">Designed & Built by Jasleen</p>
+    </footer>
+  </body>
+</html>
